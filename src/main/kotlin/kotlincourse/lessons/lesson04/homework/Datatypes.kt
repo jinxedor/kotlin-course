@@ -30,7 +30,7 @@ val v14: List<String> = listOf(3, 14)
 
 val v15: Char = '9'
 
-val v16: Int = 2048
+val v16: Short = 2048
 
 val v17: Long = 10000000000L
 
@@ -48,7 +48,7 @@ val v23: String = "Android Studio"
 
 val v24: Char = '@'
 
-val v25: Int = 1024
+val v25: Short = 1024
 
 val v26: Long = 1234567890123L
 
