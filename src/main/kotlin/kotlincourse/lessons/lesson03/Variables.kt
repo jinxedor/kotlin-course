@@ -1,4 +1,4 @@
-package kotlincourse.lesson3
+package kotlincourse.lessons.lesson03
 
 //will be mutable?
 //do we need to initialize it right away? - if not lateinit
