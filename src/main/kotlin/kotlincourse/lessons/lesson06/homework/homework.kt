@@ -39,3 +39,6 @@ fun dogAge (age: Int) {
 
 // Задание 3
 
+fun transport (length: Int) {
+
+}
