@@ -1,5 +1,5 @@
 package kotlincourse.lessons.lesson05.homework
-//
+
 ////Simple operators
 //
 //(14 - 4 <= 10) || (6 / 2 != 3)
