@@ -15,7 +15,7 @@ fun main() {
     // Операторыработы с диапазонами чисел
     val intRange = 1..10
 
-    val intUntil = 1 until 10 // Диапазон перебора значений в заданых рамках
+    val intUntil = 1 until 10 // Диапазон перебора значений в заданых рамках. Until исключает верхнюю границу из результата, т.е. от 1 до 9 в примере
     val downTo = 10 downTo 1 // В обратную сторону
     val charRange = 'd'..'v' // Символы
 
@@ -25,7 +25,7 @@ fun main() {
     println(intRange.joinToString(separator = " "))
     println(inRange)
 
-    //Альтернатива if/else для комплексной проверки условий
+    //Альтернатива if/else для комплексной проверки условий. Для включения обеих границ используется запись (a..b), для исключения верхней границы - (a until b)
     val score = 67
     when (score) {
         in 61..100 -> println("еще посидим")
@@ -79,25 +79,16 @@ fun example1(arg: Int) {
 
 fun example2(arg: Int) {
     when (arg) {
-        in 0..<6 -> {
-            println("Night")
-        }
+        in 0..<6 -> println("Night")
 
-        in 6..<12 -> {
-            println("Morning")
-        }
 
-        in 12..<18 -> {
-            println("Day")
-        }
+        in 6..<12 -> println("Morning")
 
-        in 18..<24 -> {
-            println("Evening")
-        }
+        in 12..<18 -> println("Day")
 
-        else -> {
-            println("This is not the time format")
-        }
+        in 18..<24 -> println("Evening")
+
+        else -> println("This is not the time format")
     }
 }
 
