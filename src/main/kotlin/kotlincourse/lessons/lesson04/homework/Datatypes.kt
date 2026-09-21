@@ -10,7 +10,7 @@ val v4: Double = 0.123456789
 
 val v5: String = "Kotlin & Java"
 
-val v6: Boolean = FALSE // Неверный ввод значения false. Использовать такое значение можно только если объявить его отдельно как val FALSE = false
+// val v6: Boolean = FALSE // Неверный ввод значения false. Использовать такое значение можно только если объявить его отдельно как val FALSE = false
 
 val v7: Char = 'c'
 
@@ -26,7 +26,7 @@ val v12: String = "OpenAI"
 
 val v13: String = "true"
 
-val v14: List<String> = listOf(3, 14)
+val v14: List<Int> = listOf(3, 14)
 
 val v15: Char = '9'
 
@@ -38,11 +38,11 @@ val v18: Set<String> = setOf("OpenAI", "Quantum Computing")
 
 val v19: Float = 5.75f
 
-val v20 = `1.414` // Ввод такого значения недопустим из за одинарных скобок.
+// val v20 = `1.414` // Ввод такого значения недопустим из за одинарных скобок.
 
 val v21: String = "Artificial Intelligence"
 
-val v22: Array<Char, String> = arrayOf('x', "A") // В Array<> должен быть один тип данных, тут используются Char и String
+// val v22: Array<Char, String> = arrayOf('x', "A") // В Array<> должен быть один тип данных, тут используются Char и String
 
 val v23: String = "Android Studio"
 
@@ -58,15 +58,15 @@ val v28: Double = -273.15
 
 val v29: String = "SpaceX"
 
-val v30: Boolean = FALSE // Неверный ввод значения false. Использовать такое значение можно только если объявить его отдельно как val FALSE = false
+// val v30: Boolean = FALSE // Неверный ввод значения false. Использовать такое значение можно только если объявить его отдельно как val FALSE = false
 
 val v31: Double = 0.007
 
-val v32 = “🤯” // Ввод такого значения недопустим из за использования эмоджи
+// val v32 = “🤯” // Ввод такого значения недопустим из за использования эмоджи
 
-val v33: Map<Boolean , Int> = mapOf("true" to 2, "false" to 34)
+val v33: Map<String , Int> = mapOf("true" to 2, "false" to 34)
 
-val v34 = ‘65535’ // Ввод такого значения недопустим из за одинарных скобок
+// val v34 = ‘65535’ // Ввод такого значения недопустим из за одинарных скобок
 
 val v35: Long = 72057594037927935L
 
@@ -76,7 +76,7 @@ val v37: Double = 101.0101
 
 val v38: String = "Quantum Computing"
 
-val v39: Map<Int , Boolean> = mapOf(2 to "true", 34 to "false")
+val v39: Map<Int , String> = mapOf(2 to "true", 34 to "false")
 
 val v40: Char = 'x'
 
@@ -88,7 +88,7 @@ val v42: Long = 123456789123456789L
 
 val v43: Float = 6.626f
 
-val v44: Boolean = TRUE // Неверный ввод значения true. Использовать такое значение можно только если объявить его отдельно как val TRUE = true
+// val v44: Boolean = TRUE // Неверный ввод значения true. Использовать такое значение можно только если объявить его отдельно как val TRUE = true
 
 
 // Вторая часть домашней работы.

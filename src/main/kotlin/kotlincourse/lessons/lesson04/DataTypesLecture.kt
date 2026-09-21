@@ -86,12 +86,3 @@ val p: Boolean = false
 val n: String = "D"
 val keyToValues1: Map<String, Any> = mapOf("a" to 'a', "b" to true)
 
-val asda int
-val sdasdt char
-val wswssw double
-val wesdos int
-val wssdd Byte
-val ssssssssssss Long
-val rrrrrr List<Double>
-val sssss List<String>
-val aaaaaa string

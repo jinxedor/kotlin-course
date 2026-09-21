@@ -22,7 +22,7 @@ val duration: String = "1-3 days"
 private val contract_information: String = "+79000000000"
 
 // Текущее состояние хакатона (статус)
-lateinit var status: String =
+lateinit var status: String
 
 // Список спонсоров
 val sponsor: String = "Sponsor"
@@ -73,7 +73,7 @@ var temperature: Double = 24.2
 var debug_info: String = "Monitoring Info"
 
 // Регулятор скорости интернета (понижающий коэффициент, например 0.5)
-private lateinit var internet_speed: Double = 0.7
+private var internet_speed: Double = 0.7
 
 // Уровень освещения
 var lighting_level: Double = 1.2

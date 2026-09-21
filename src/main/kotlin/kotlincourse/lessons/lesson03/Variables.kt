@@ -40,7 +40,7 @@ lateinit var phoneNumber: String
 //lazy initialization
 
 val lazyValue: String by lazy {
-    Thread.sleep(millis = 20000)
+    Thread.sleep(200)
     "Hello, this is a lazy string!"
 }
 
