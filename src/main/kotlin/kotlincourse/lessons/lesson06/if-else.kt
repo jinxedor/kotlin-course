@@ -1,6 +1,4 @@
-package kotlincourse.lessons.lesson_06
-
-import kotlincourse.lessons.lesson05.userVolume
+package kotlincourse.lessons.lesson06
 
 
 fun main() {
@@ -48,12 +46,11 @@ fun main() {
     val max = if (a > b) a else b
 
     val results = when (score) {
-        in 61..100 -> println("еще посидим")
-        in 41..60 -> println("пупупу...")
-        in 10..40 -> println("гуляй родной")
-        else -> println("Мальчик, не делай тете мозги")
+        in 61..100 -> println("Well done")
+        in 41..60 -> println("Could be better")
+        in 10..40 -> println("Cant be worse")
+        else -> println("No-no-no")
     }
-    println(results)
 
     example1(arg = 20)
     example2(arg = 11)
