@@ -87,8 +87,8 @@ fun main() {
     val e3: Array<Int> = Array(10) { 0 }
     println(e3.joinToString(" "))
     println("----------")
-    var index2 = 0
 
+    var index2 = 0
     for (i in 10..100 step 10) {
         e3[index2] = i
         index2++

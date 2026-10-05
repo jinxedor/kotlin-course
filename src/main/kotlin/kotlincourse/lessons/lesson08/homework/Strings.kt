@@ -22,7 +22,7 @@ fun main() {
         }
         println(result)
     }
-    example1("без")
+    example1("без проблем")
 
     // Data extraction
     fun example2(log: String) {
@@ -36,7 +36,7 @@ fun main() {
     }
     example2("Пользователь вошел в систему -> 2021-12-01 09:48:23")
 
-    //Phone number mask
+    //Card number mask
     fun example3(log: String) {
         val logNumber = log.substring(0, 13)
         val logRest = log.substring(14)
@@ -77,7 +77,7 @@ fun main() {
         println(shortResult)
     }
 
-    example6("Котлин лучший язык программирования")
+    example6("Самый Волшебный Огонь")
 }
 
 
