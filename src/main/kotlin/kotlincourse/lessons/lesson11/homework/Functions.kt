@@ -79,8 +79,7 @@ fun ten(a: String?, b: Int?): Boolean? {
 fun multiplyByTwo(a: Int): Int = a * 2
 
 //Создайте функцию isEven, которая принимает целое число и возвращает true, если число чётное, и false в противном случае.
-fun isEven(a: Int): Boolean =
-    (a % 2) == 0 //The condition set here is the default for "true" response, no need to pile up "if/else"-s
+fun isEven(a: Int): Boolean = (a % 2) == 0 //The condition set here is the default for "true" response, no need to pile up "if/else"-s
 
 //Напишите функцию printNumbersUntil, которая принимает целое число n и выводит на экран числа от 1 до n.
 // Если число n меньше 1, функция должна прекратить выполнение с помощью return без вывода сообщений.
