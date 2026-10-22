@@ -181,6 +181,6 @@ fun main() {
             .map { it.length }
             .average())
     }
-    println(averageLength(listOf("kotlin", "java", "go", "scala")))
+    println(averageLength(listOf("kotlin", "java", "go",)))
 
 }
