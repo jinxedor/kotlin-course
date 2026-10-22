@@ -20,7 +20,7 @@ fun main() {
 
 //Альтернативно, можно использовать деструктуризацию для получения ключа и значения напрямую:
     for ((key, value) in fruitsPrices) {
-        println("Key: $key, Value: $value")
+        println("Key: $key,, Value: $value")
     }
 
 //Почему мы изучали Pair а не Map.Entry?
